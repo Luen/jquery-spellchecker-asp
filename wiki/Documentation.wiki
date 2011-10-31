@@ -1,1 +1,26 @@
-<hr/><p><strong>Server script</strong> </p><p>The ASP script currently supports only google's spell checking services. Google requires minimal server adjustments.</p>
+<p><strong>Server script</strong> </p><p>The ASP script currently supports only google's spell checking services. Google requires minimal server adjustments.</p>
+
+<table>
+<tbody>
+<tr>
+<td>Tag</td>
+<td>Description</td>
+</tr>
+<tr>
+<td>o</td>
+<td>the offset from the start of the text of the word</td>
+</tr>
+<tr>
+<td>l</td>
+<td>length of misspelled word</td>
+</tr>
+<tr>
+<td>s</td>
+<td>Confidence of&nbsp;the suggestion</td>
+</tr>
+<tr>
+<td>text</td>
+<td>tab delimited list of suggestions</td>
+</tr>
+</tbody>
+</table>
