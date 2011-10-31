@@ -1,18 +1,20 @@
 <p><strong>Server script</strong> </p><p>The ASP script currently supports only google's spell checking services. Google requires minimal server adjustments.</p>
 The xml structure looks like this...<br />
- 
+<code language="xml">
 <?xml version="1.0" encoding="utf-8" ?> 
 <spellrequest textalreadyclipped="0" ignoredups="0" ignoredigits="1" ignoreallcaps="1">
     <text>Ths is a tst</text>
 </spellrequest>
- 
+</code> 
 The response look like ...<br />
- 
+<code language="xml">
 <?xml version="1.0" encoding="UTF-8"?>
 <spellresult error="0" clipped="0" charschecked="12">
     <c o="0" l="3" s="1">This Th's Thus Th HS</c>
     <c o="9" l="3" s="1">test tat ST St st</c>
-</spellresult><br />
+</spellresult>
+</code>
+<br />
 
 
 <table border="1">
