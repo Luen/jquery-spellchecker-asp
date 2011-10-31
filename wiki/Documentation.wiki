@@ -1,6 +1,20 @@
 <p><strong>Server script</strong> </p><p>The ASP script currently supports only google's spell checking services. Google requires minimal server adjustments.</p>
 
-<table>
+The xml structure looks like this...
+<div xmlns="http://www.w3.org/1999/xhtml"><font color="#0000ff">&lt;?</font><font face="Courier New"><font color="#800000">xml</font> <font color="#ff0000">version</font>="<font color="#0000ff">1.0</font>" <font color="#ff0000">encoding</font>="<font color="#0000ff">utf-8</font>" <font color="#0000ff">?&gt;</font> <br><font color="#0000ff">&lt;</font><font color="#800000">spellrequest</font> <font color="#ff0000">textalreadyclipped</font>="<font color="#0000ff">0</font>" <font color="#ff0000">ignoredups</font>="<font color="#0000ff">0</font>" <font color="#ff0000">ignoredigits</font>="<font color="#0000ff">1</font>" <font color="#ff0000">ignoreallcaps</font>="<font color="#0000ff">1</font>"<font color="#0000ff">&gt;</font><br><font color="#0000ff">&nbsp;&nbsp;&nbsp; &lt;</font><font color="#800000">text</font><font color="#0000ff">&gt;</font>Ths is a tst<font color="#0000ff">&lt;</font>/<font color="#800000">text</font><font color="#0000ff">&gt;</font><br><font color="#0000ff">&lt;</font>/<font color="#800000">spellrequest</font></font><font color="#0000ff">&gt;</font></div>
+
+<div xmlns="http://www.w3.org/1999/xhtml"><font color="#0000ff"></font>&nbsp;</div>
+
+<div xmlns="http://www.w3.org/1999/xhtml">The response look like ... </div>
+
+<div xmlns="http://www.w3.org/1999/xhtml">&nbsp;</div>
+
+<div xmlns="http://www.w3.org/1999/xhtml"><font color="#0000ff">&lt;?</font><font face="Courier New"><font color="#800000">xml</font> <font color="#ff0000">version</font>="<font color="#0000ff">1.0</font>" <font color="#ff0000">encoding</font>="<font color="#0000ff">UTF-8</font>"<font color="#0000ff">?&gt;</font><br><font color="#0000ff">&lt;</font><font color="#800000">spellresult</font> <font color="#ff0000">error</font>="<font color="#0000ff">0</font>" <font color="#ff0000">clipped</font>="<font color="#0000ff">0</font>" <font color="#ff0000">charschecked</font>="<font color="#0000ff">12</font>"<font color="#0000ff">&gt;</font><br><font color="#0000ff">&nbsp;&nbsp;&nbsp; &lt;</font>c <font color="#ff0000">o</font>="<font color="#0000ff">0</font>" <font color="#ff0000">l</font>="<font color="#0000ff">3</font>" <font color="#ff0000">s</font>="<font color="#0000ff">1</font>"<font color="#0000ff">&gt;</font>This Th's Thus Th HS<font color="#0000ff">&lt;</font>/<font color="#800000">c</font><font color="#0000ff">&gt;</font><br><font color="#0000ff">&nbsp;&nbsp;&nbsp; &lt;</font>c <font color="#ff0000">o</font>="<font color="#0000ff">9</font>" <font color="#ff0000">l</font>="<font color="#0000ff">3</font>" <font color="#ff0000">s</font>="<font color="#0000ff">1</font>"<font color="#0000ff">&gt;</font>test tat ST St st<font color="#0000ff">&lt;</font>/<font color="#800000">c</font><font color="#0000ff">&gt;</font><br><font color="#0000ff">&lt;</font>/<font color="#800000">spellresult</font></font><font color="#0000ff">&gt;</font></div>
+
+<div xmlns="http://www.w3.org/1999/xhtml"><font color="#0000ff"></font>&nbsp;</div>
+
+
+<table border="1">
 <tbody>
 <tr>
 <td>Tag</td>
