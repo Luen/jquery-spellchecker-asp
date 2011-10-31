@@ -1,1 +1,1 @@
-<hr/><p><strong>Server script</strong> </p><p>The ASP script currently supports only google's spell checking services. Google requires minimal server adjustments</p>
+<hr/><p><strong>Server script</strong> </p><p>The ASP script currently supports only google's spell checking services. Google requires minimal server adjustments.</p>
