@@ -44,7 +44,7 @@ The response look like ...<br />
 </tr>
 <tr>
 <td>s</td>
-<td>Confidence of&nbsp;the suggestion</td>
+<td>Confidence of the suggestion</td>
 </tr>
 <tr>
 <td>text</td>
